@@ -22,7 +22,7 @@ Space-travellers is an app that shows rockets and their missions. It is built us
 
 To get the content of this project locally you need to run this command in your terminal:
 
-- git clone your https://github.com/matovu-farid/space-travellers.git
+- git clone your https://github.com/Anny85-code/space-travelers-app.git
 - cd project space-travellers
 - npm install
 - npm start
