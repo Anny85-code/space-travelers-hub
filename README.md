@@ -31,9 +31,15 @@ To get the content of this project locally you need to run this command in your 
 
 This project is deployed on a github page on the link below:
 
-- https://matovu-farid.github.io/space-travellers/
+- https://anny85-code.github.io/space-travelers-hub/
 
 ## Authors
+
+👤 **Aniekan udo**
+
+- GitHub: [@Anny85-code](https://github.com/Anny85-code)
+- Twitter: [@Annyudo8](https://twitter.com/Anny_udo8)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/aniekan-udo-665b65213/)
 
 👤 **Matovu Farid Nkoba**
 
@@ -41,11 +47,7 @@ This project is deployed on a github page on the link below:
 - Twitter: [@matovu100](https://twitter.com/matovu100)
 - LinkedIn: [matovu-farid](https://www.linkedin.com/in/matovu-farid-48b80257)
 
-👤 **Aniekan udo**
 
-- GitHub: [@Anny85-code](https://github.com/Anny85-code)
-- Twitter: [@Annyudo8](https://twitter.com/Anny_udo8)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/aniekan-udo-665b65213/)
 
 ## 📝 License
 
