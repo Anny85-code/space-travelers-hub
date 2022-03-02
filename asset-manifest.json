@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/space-travelers-app/static/css/main.82a13617.css",
+    "main.js": "/space-travelers-app/static/js/main.7489c38b.js",
+    "static/js/787.4a08b3bd.chunk.js": "/space-travelers-app/static/js/787.4a08b3bd.chunk.js",
+    "static/media/spacex.png": "/space-travelers-app/static/media/spacex.3f6fb2742f28651730c0.png",
+    "index.html": "/space-travelers-app/index.html",
+    "main.82a13617.css.map": "/space-travelers-app/static/css/main.82a13617.css.map",
+    "main.7489c38b.js.map": "/space-travelers-app/static/js/main.7489c38b.js.map",
+    "787.4a08b3bd.chunk.js.map": "/space-travelers-app/static/js/787.4a08b3bd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82a13617.css",
+    "static/js/main.7489c38b.js"
+  ]
+}
