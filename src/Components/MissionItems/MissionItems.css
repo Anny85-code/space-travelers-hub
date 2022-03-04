@@ -1,0 +1,38 @@
+.li-content:nth-child(even) {
+  background-color: rgba(148, 147, 147, 0.502);
+}
+
+.name {
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  flex: 1.5;
+  margin: 0;
+}
+
+.content {
+  border-left: 1px solid rgb(129, 126, 126);
+  height: 350px;
+  padding-left: 5px;
+}
+
+.des {
+  flex: 6;
+}
+
+.status {
+  flex: 1.5;
+}
+
+.btn1 {
+  background-color: rgb(129, 126, 126);
+  font-size: 11px;
+  color: #fff;
+  padding: 6px;
+}
+
+.active-btn {
+  background-color: rgb(43, 175, 236);
+  color: #fff;
+  padding: 6px;
+}
