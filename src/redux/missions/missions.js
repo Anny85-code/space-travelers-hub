@@ -1,7 +1,6 @@
 const FETCHMISSIONDATA = 'space-travellers/missions/fetch';
 const JOINMISSION = 'space-travellers/missions/join-mission';
 const LEAVEMISSION = 'space-travellers/missions/leave-mission';
-const ACTIVEMEMBER = 'space-travellers/missions/active-member';
 
 const url = 'https://api.spacexdata.com/v3/missions';
 export const fetchMissionData = () => async (dispatch) => {
@@ -31,11 +30,6 @@ export const leaveMission = (payload) => ({
   payload,
 });
 
-export const activeMember = (payload) => ({
-  type: ACTIVEMEMBER,
-  payload,
-});
-
 const missionsReducer = (state = [], action) => {
   switch (action.type) {
     case FETCHMISSIONDATA:
@@ -48,10 +42,6 @@ const missionsReducer = (state = [], action) => {
       return state.map((mission) => (mission.id === action.payload
         ? { ...mission, reserved: false }
         : mission));
-
-    case ACTIVEMEMBER:
-      return state.map((mission) => (mission.id === action.payload
-        ? { ...mission, reserved: true } : mission));
 
     default:
       return state;

@@ -3,6 +3,7 @@
 # space-travellers
 
 ## Live preview from [Netlify](https://space-travellers-farid-anny.netlify.app/)
+## Live preview from [heroku](https://spacetravelershubapp.herokuapp.com/)
 
 This a space-travellers website
 

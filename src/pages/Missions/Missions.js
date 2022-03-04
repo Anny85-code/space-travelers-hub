@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from 'react-redux';
-import { joinMission, activeMember, leaveMission } from '../../redux/missions/missions';
+import { joinMission, leaveMission } from '../../redux/missions/missions';
 import './Missions.css';
 
 const Missions = () => {
@@ -27,14 +27,13 @@ const Missions = () => {
                   <button
                     type="button"
                     className="btn1"
-                    onClick={() => dispatch(activeMember(id))}
+                    // onClick={() => dispatch(activeMember(id))}
                   >
                     NOT A MEMBER
                   </button>
                 ) : (
                   <button type="button" className="active-btn">
                     Active Member
-                    {' '}
                   </button>
                 )}
               </div>
