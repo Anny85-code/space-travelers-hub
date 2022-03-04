@@ -1,10 +1,9 @@
-import { useSelector, useDispatch } from 'react-redux';
-import { joinMission, leaveMission } from '../../redux/missions/missions';
+import { useSelector } from 'react-redux';
+import MissionItems from '../../Components/MissionItems/MissionItems';
 import './Missions.css';
 
 const Missions = () => {
   const missionData = useSelector((state) => state.missions);
-  const dispatch = useDispatch();
 
   return (
     <div className="main-container">
@@ -16,47 +15,21 @@ const Missions = () => {
             <h3 className="h-status n">Status</h3>
             <h3 className="h-join n">|</h3>
           </div>
-          {missionData.map(({
-            id, name, description, reserved,
-          }) => (
-            <li key={id} className="li-content">
-              <div className="content name">{name}</div>
-              <div className="content des">{description}</div>
-              <div className="content status center-container">
-                {reserved ? (
-                  <button
-                    type="button"
-                    className="btn1"
-                  >
-                    NOT A MEMBER
-                  </button>
-                ) : (
-                  <button type="button" className="active-btn">
-                    Active Member
-                  </button>
-                )}
-              </div>
-              <div className="content join center-container">
-                {!reserved ? (
-                  <button
-                    type="button"
-                    className="btn2"
-                    onClick={() => dispatch(joinMission(id))}
-                  >
-                    Join Mission
-                  </button>
-                ) : (
-                  <button
-                    type="button"
-                    className="leave-btn"
-                    onClick={() => dispatch(leaveMission(id))}
-                  >
-                    Leave Mission
-                  </button>
-                )}
-              </div>
-            </li>
-          ))}
+          {missionData.map(
+            (
+              {
+                id, name, description, reserved,
+              },
+            ) => (
+              <MissionItems
+                key={id}
+                id={id}
+                name={name}
+                description={description}
+                reserved={reserved}
+              />
+            ),
+          )}
         </ul>
       </div>
     </div>
