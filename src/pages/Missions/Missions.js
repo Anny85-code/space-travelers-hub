@@ -27,7 +27,6 @@ const Missions = () => {
                   <button
                     type="button"
                     className="btn1"
-                    // onClick={() => dispatch(activeMember(id))}
                   >
                     NOT A MEMBER
                   </button>
